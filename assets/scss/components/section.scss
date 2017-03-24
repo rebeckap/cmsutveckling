@@ -1,0 +1,116 @@
+section {
+
+	&.standard {
+		margin: 40px 0;
+	}
+
+	&.hero {
+		background-position: center center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		color: $white;
+		height: 500px;
+
+		h1 {
+			color: $white;
+			margin-top: 20px;
+		}
+	}
+
+	&.two {
+
+		img {
+			margin-bottom: 30px;
+			height: 100%;
+			width: 100%;
+
+		}
+		ul {
+			list-style: none;
+
+			li {
+				float: left;
+				margin-right: 10px;
+			}
+		}	
+	}
+
+	&.columns {
+
+		.bottom {
+			margin-bottom: 15px;
+		}
+
+		h2 {
+			margin-bottom: 15px;
+		}
+
+		img {
+			margin: 5px 0;
+		}
+
+		h3 {
+			margin: 5px 0;
+		}
+	}
+
+	&.blog {
+
+		article{
+			margin: 15px 0;
+			border: 1px $grey solid;
+			border-radius: 10px;
+			padding: 15px;
+		}
+
+		h2 {
+			margin: 10px;
+		}
+
+		ul {
+			list-style: none;
+			float: right;
+
+			li {
+				float: left;
+				margin: 0 15px;
+			}
+		}
+	}
+
+	&.testimonial {
+		padding: 10px 0;
+
+		&.lightgreen {
+			background-color: #edf8e6;
+		}
+
+		&.lightgrey {
+			background-color: #acacac;
+		}
+
+		&.green {
+			background-color: #e3f4d8;
+		}
+	}
+
+	&.s-guide {
+		img {
+			width: 200px;
+			margin-bottom: 15px;
+		}
+
+		h1 {
+			margin-bottom: 10px;
+		}
+	}
+
+	&.a-guide {
+
+		img {
+			width: 150px;
+			margin: 15px 0;
+		}
+	}
+
+}

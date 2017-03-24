@@ -1,0 +1,22 @@
+#footer {
+	height: 150px;
+	line-height: 40px;
+	background-color: $green;
+	padding: 40px 0;
+	text-align: center;
+
+	ul {
+		list-style: none;
+		float: right;
+
+		li {
+			float: left;
+			margin: 0 10px;
+
+			.fa {
+				font-size: 20px;
+				color: darkgrey;
+			}
+		}
+	}
+}
